@@ -1,3 +1,5 @@
+//Alumno es una subclase
+
 class Alumno extends Persona {
     Nombre
     Matricula;

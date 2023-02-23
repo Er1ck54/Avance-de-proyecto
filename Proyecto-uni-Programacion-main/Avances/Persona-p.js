@@ -8,6 +8,9 @@ class Persona {
         this.F_nacimiento= f_nacimiento
         //this.#id = this.#crearId();
     }
+    // this.correo = correo
+    // this.password = pasword
+    
     calcular_edad = function () {
         let fecha_actual = new Date();
         let fecha_nacimiento = new Date(this.fecha_nacimiento);
